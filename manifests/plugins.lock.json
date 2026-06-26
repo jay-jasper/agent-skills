@@ -19,6 +19,7 @@
     "qt-skills-and-tools": "TheQtCompanyRnD/agent-skills",
     "superpowers-dev": "obra/superpowers",
     "swift-ios-skills": "dpearson2699/swift-ios-skills",
+    "thedotmack": "thedotmack/claude-mem",
     "ui-ux-pro-max-skill": "nextlevelbuilder/ui-ux-pro-max-skill",
     "understand-anything": "Egonex-AI/Understand-Anything",
     "zig-skills": "zig-incubator/zig-skills"
@@ -155,6 +156,10 @@
     {
       "plugin": "all-ios-skills",
       "marketplace": "swift-ios-skills"
+    },
+    {
+      "plugin": "claude-mem",
+      "marketplace": "thedotmack"
     },
     {
       "plugin": "ui-ux-pro-max",
