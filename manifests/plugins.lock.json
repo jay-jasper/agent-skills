@@ -13,7 +13,6 @@
     "existential-birds": "existential-birds/beagle",
     "impeccable": "pbakaus/impeccable",
     "karpathy-skills": "forrestchang/andrej-karpathy-skills",
-    "lodestar": "Leejaywell/lode-skills",
     "pm-skills": "phuryn/pm-skills",
     "ponytail": "DietrichGebert/ponytail",
     "qt-skills-and-tools": "TheQtCompanyRnD/agent-skills",
@@ -100,10 +99,6 @@
     {
       "plugin": "andrej-karpathy-skills",
       "marketplace": "karpathy-skills"
-    },
-    {
-      "plugin": "lodestar",
-      "marketplace": "lodestar"
     },
     {
       "plugin": "pm-ai-shipping",
