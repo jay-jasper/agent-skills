@@ -1,0 +1,388 @@
+# Skills 整理清单 (354)
+
+> 勾 [x] = 归档候选；留空 = 保留。KEEP 组建议全留。
+
+
+## KEEP: 通用研发流  (63)  —— 建议保留
+- [ ] api-and-interface-design
+- [ ] brainstorming
+- [ ] c4-architecture
+- [ ] caveman
+- [ ] ci-cd-and-automation
+- [ ] clean-code-principles
+- [ ] cli-creator
+- [ ] code-architecture
+- [ ] code-review-and-quality
+- [ ] code-simplification
+- [ ] codebase-intel
+- [ ] context-engineering
+- [ ] debugging
+- [ ] debugging-and-error-recovery
+- [ ] debugging-instruments
+- [ ] define-goal
+- [ ] diagnose
+- [ ] dispatching-parallel-agents
+- [ ] documentation-and-adrs
+- [ ] doubt-driven-development
+- [ ] executing-plans
+- [ ] feature-sliced-design
+- [ ] gh-address-comments
+- [ ] gh-fix-ci
+- [ ] git-guardrails-claude-code
+- [ ] git-workflow-and-versioning
+- [ ] handoff
+- [ ] idea-refine
+- [ ] improve-codebase-architecture
+- [ ] incremental-implementation
+- [ ] karpathy-guidelines
+- [ ] lean-ctx
+- [ ] mcp-builder
+- [ ] naming-analyzer
+- [ ] performance-audit
+- [ ] performance-optimization
+- [ ] planning-and-task-breakdown
+- [ ] qa-test-planner
+- [ ] reducing-entropy
+- [ ] refactoring
+- [ ] scout
+- [ ] security-and-hardening
+- [ ] security-best-practices
+- [ ] simplify-implementation
+- [ ] skill-creator
+- [ ] source-driven-development
+- [ ] spec-driven-development
+- [ ] structured-debug
+- [ ] structured-root-cause-research
+- [ ] subagent-driven-development
+- [ ] systematic-debugging
+- [ ] tdd
+- [ ] technical-debt
+- [ ] test-driven-development
+- [ ] testing-best-practices
+- [ ] triage
+- [ ] tuner
+- [ ] using-git-worktrees
+- [ ] verification-before-completion
+- [ ] verify
+- [ ] write-a-skill
+- [ ] writing-plans
+- [ ] writing-skills
+
+## Other/杂项  (68)  —— 建议归档
+- [x] accessibility
+- [x] accessibility-testing
+- [x] agent-reach
+- [x] brownfield-drift
+- [x] browser-testing-with-devtools
+- [x] chatgpt-apps
+- [x] claude-api
+- [x] deprecation-and-migration
+- [x] doc-coauthoring
+- [x] docx
+- [x] drawio-skill
+- [x] e2e-playwright-testing
+- [x] edit-article
+- [x] finishing-a-development-branch
+- [x] frontend-ui-engineering
+- [x] fundamentals
+- [x] graphify
+- [x] grill-me
+- [x] grill-with-docs
+- [x] hatch-pet
+- [x] internal-comms
+- [x] interview-me
+- [x] jupyter-notebook
+- [x] lens
+- [x] linear
+- [x] llama-cpp
+- [x] migrate-to-codex
+- [x] migrate-to-shoehorn
+- [x] natural-language
+- [x] obsidian-vault
+- [x] openai-docs
+- [x] pdf
+- [x] playwright
+- [x] playwright-interactive
+- [x] pptx
+- [x] react-vite-best-practices
+- [x] receiving-code-review
+- [x] release-skills
+- [x] requesting-code-review
+- [x] review-rust
+- [x] scaffold-exercises
+- [x] screenshot
+- [x] security-ownership-map
+- [x] security-threat-model
+- [x] sentinel
+- [x] sentry
+- [x] seo-best-practices
+- [x] setup-matt-pocock-skills
+- [x] setup-pre-commit
+- [x] shareplay-activities
+- [x] shipping-and-launch
+- [x] slack-gif-creator
+- [x] slides
+- [x] state-management
+- [x] std-c99-proj
+- [x] tailwind-best-practices
+- [x] teach
+- [x] to-issues
+- [x] to-prd
+- [x] transcribe
+- [x] typescript-react-patterns
+- [x] using-agent-skills
+- [x] using-superpowers
+- [x] web-artifacts-builder
+- [x] webapp-testing
+- [x] xlsx
+- [x] yeet
+- [x] zoom-out
+
+## Apple/iOS  (82)  —— 建议归档
+- [x] accessorysetupkit
+- [x] activitykit
+- [x] adattributionkit
+- [x] alarmkit
+- [x] app-clips
+- [x] app-intents
+- [x] app-store-optimization
+- [x] app-store-review
+- [x] apple-on-device-ai
+- [x] appmigrationkit
+- [x] audioaccessorykit
+- [x] authentication
+- [x] avkit
+- [x] background-processing
+- [x] browserenginekit
+- [x] callkit
+- [x] carplay
+- [x] cloudkit
+- [x] contacts-framework
+- [x] core-bluetooth
+- [x] core-data
+- [x] core-motion
+- [x] core-nfc
+- [x] coreml
+- [x] cryptokit
+- [x] cryptotokenkit
+- [x] device-integrity
+- [x] dockkit
+- [x] energykit
+- [x] eventkit
+- [x] financekit
+- [x] focus-engine
+- [x] gamekit
+- [x] healthkit
+- [x] homekit
+- [x] ios-accessibility
+- [x] ios-localization
+- [x] ios-networking
+- [x] ios-simulator
+- [x] mapkit
+- [x] metrickit
+- [x] musickit
+- [x] paperkit
+- [x] passkit
+- [x] pdfkit
+- [x] pencilkit
+- [x] permissionkit
+- [x] photokit
+- [x] push-notifications
+- [x] realitykit
+- [x] relevancekit
+- [x] scenekit
+- [x] sensorkit
+- [x] speech
+- [x] speech-recognition
+- [x] spritekit
+- [x] storekit
+- [x] swift-api-design-guidelines
+- [x] swift-architecture
+- [x] swift-charts
+- [x] swift-codable
+- [x] swift-concurrency
+- [x] swift-formatstyle
+- [x] swift-language
+- [x] swift-security
+- [x] swift-testing
+- [x] swiftdata
+- [x] swiftlint
+- [x] swiftui-animation
+- [x] swiftui-gestures
+- [x] swiftui-layout-components
+- [x] swiftui-liquid-glass
+- [x] swiftui-navigation
+- [x] swiftui-patterns
+- [x] swiftui-performance
+- [x] swiftui-uikit-interop
+- [x] swiftui-webkit
+- [x] tabletopkit
+- [x] tipkit
+- [x] vision-framework
+- [x] weatherkit
+- [x] widgetkit
+
+## Go  (43)  —— 建议归档
+- [x] golang-benchmark
+- [x] golang-cli
+- [x] golang-code-style
+- [x] golang-concurrency
+- [x] golang-context
+- [x] golang-continuous-integration
+- [x] golang-data-structures
+- [x] golang-database
+- [x] golang-dependency-injection
+- [x] golang-dependency-management
+- [x] golang-design-patterns
+- [x] golang-documentation
+- [x] golang-error-handling
+- [x] golang-google-wire
+- [x] golang-graphql
+- [x] golang-grpc
+- [x] golang-how-to
+- [x] golang-lint
+- [x] golang-modernize
+- [x] golang-naming
+- [x] golang-observability
+- [x] golang-performance
+- [x] golang-popular-libraries
+- [x] golang-project-layout
+- [x] golang-safety
+- [x] golang-samber-do
+- [x] golang-samber-hot
+- [x] golang-samber-lo
+- [x] golang-samber-mo
+- [x] golang-samber-oops
+- [x] golang-samber-ro
+- [x] golang-samber-slog
+- [x] golang-security
+- [x] golang-spf13-cobra
+- [x] golang-spf13-viper
+- [x] golang-stay-updated
+- [x] golang-stretchr-testify
+- [x] golang-structs-interfaces
+- [x] golang-swagger
+- [x] golang-testing
+- [x] golang-troubleshooting
+- [x] golang-uber-dig
+- [x] golang-uber-fx
+
+## Content/baoyu  (21)  —— 建议归档
+- [x] baoyu-article-illustrator
+- [x] baoyu-comic
+- [x] baoyu-compress-image
+- [x] baoyu-cover-image
+- [x] baoyu-danger-gemini-web
+- [x] baoyu-danger-x-to-markdown
+- [x] baoyu-diagram
+- [x] baoyu-electron-extract
+- [x] baoyu-format-markdown
+- [x] baoyu-image-gen
+- [x] baoyu-infographic
+- [x] baoyu-markdown-to-html
+- [x] baoyu-post-to-wechat
+- [x] baoyu-post-to-weibo
+- [x] baoyu-post-to-x
+- [x] baoyu-slide-deck
+- [x] baoyu-translate
+- [x] baoyu-url-to-markdown
+- [x] baoyu-wechat-summary
+- [x] baoyu-xhs-images
+- [x] baoyu-youtube-transcript
+
+## Design/UI  (23)  —— 建议归档
+- [x] algorithmic-art
+- [x] banner-design
+- [x] brand
+- [x] brand-guidelines
+- [x] canvas-design
+- [x] design
+- [x] design-system
+- [x] extract-design-system
+- [x] figma
+- [x] figma-code-connect-components
+- [x] figma-create-design-system-rules
+- [x] figma-create-new-file
+- [x] figma-generate-design
+- [x] figma-generate-library
+- [x] figma-implement-design
+- [x] figma-use
+- [x] frontend-design
+- [x] motion-design
+- [x] prototype
+- [x] theme-factory
+- [x] ui-styling
+- [x] ui-ux-pro-max
+- [x] web-design-guidelines
+
+## Rust  (13)  —— 建议归档
+- [x] axum-code-review
+- [x] ffi-code-review
+- [x] macros-code-review
+- [x] rust-api-guidelines
+- [x] rust-best-practices
+- [x] rust-code-review
+- [x] rust-design-review
+- [x] rust-project-setup
+- [x] rust-skills
+- [x] rust-testing-code-review
+- [x] serde-code-review
+- [x] sqlx-code-review
+- [x] tokio-async-code-review
+
+## Qt  (7)  —— 建议归档
+- [x] qt-cpp-docs
+- [x] qt-cpp-review
+- [x] qt-qml
+- [x] qt-qml-profiler
+- [x] qt-qml-review
+- [x] qt-qml-test
+- [x] qt-ui-design
+
+## Meson  (9)  —— 建议归档
+- [x] meson-advanced-project-design
+- [x] meson-build-system
+- [x] meson-ci-cd-integration
+- [x] meson-cross-compilation
+- [x] meson-debugging-troubleshooting
+- [x] meson-patterns-cookbook
+- [x] meson-setup-configuration
+- [x] meson-subprojects-management
+- [x] meson-testing-installation
+
+## Unreal  (4)  —— 建议归档
+- [x] unreal-best-practices
+- [x] unreal-engine
+- [x] unreal-gas
+- [x] unreal-thirdparty
+
+## Zig  (3)  —— 建议归档
+- [x] zig
+- [x] zig-raylib
+- [x] zig-sdl3-bindings
+
+## .NET  (2)  —— 建议归档
+- [x] aspnet-core
+- [x] winui-app
+
+## understand-anything  (8)  —— 建议归档
+- [x] understand
+- [x] understand-chat
+- [x] understand-dashboard
+- [x] understand-diff
+- [x] understand-domain
+- [x] understand-explain
+- [x] understand-knowledge
+- [x] understand-onboard
+
+## PM/Notion  (4)  —— 建议归档
+- [x] notion-knowledge-capture
+- [x] notion-meeting-intelligence
+- [x] notion-research-documentation
+- [x] notion-spec-to-implementation
+
+## Deploy/Vercel  (4)  —— 建议归档
+- [x] cloudflare-deploy
+- [x] netlify-deploy
+- [x] render-deploy
+- [x] vercel-deploy

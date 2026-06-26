@@ -1,0 +1,87 @@
+{
+  "_note": "Re-add each marketplace, then install each plugin. claude plugin marketplace add <src>; claude plugin install <plugin>@<market>",
+  "marketplaces": {
+    "claude-code-warp": "warpdotdev/claude-code-warp",
+    "claude-plugins-official": "anthropics/claude-plugins-official",
+    "ecc": "https://github.com/affaan-m/ECC.git",
+    "karpathy-skills": "forrestchang/andrej-karpathy-skills",
+    "lodestar": "Leejaywell/lode-skills",
+    "pm-skills": "phuryn/pm-skills",
+    "ponytail": "DietrichGebert/ponytail",
+    "understand-anything": "Egonex-AI/Understand-Anything"
+  },
+  "plugins": [
+    {
+      "plugin": "warp",
+      "marketplace": "claude-code-warp"
+    },
+    {
+      "plugin": "frontend-design",
+      "marketplace": "claude-plugins-official"
+    },
+    {
+      "plugin": "swift-lsp",
+      "marketplace": "claude-plugins-official"
+    },
+    {
+      "plugin": "vercel",
+      "marketplace": "claude-plugins-official"
+    },
+    {
+      "plugin": "ecc",
+      "marketplace": "ecc"
+    },
+    {
+      "plugin": "andrej-karpathy-skills",
+      "marketplace": "karpathy-skills"
+    },
+    {
+      "plugin": "lodestar",
+      "marketplace": "lodestar"
+    },
+    {
+      "plugin": "pm-ai-shipping",
+      "marketplace": "pm-skills"
+    },
+    {
+      "plugin": "pm-data-analytics",
+      "marketplace": "pm-skills"
+    },
+    {
+      "plugin": "pm-execution",
+      "marketplace": "pm-skills"
+    },
+    {
+      "plugin": "pm-go-to-market",
+      "marketplace": "pm-skills"
+    },
+    {
+      "plugin": "pm-market-research",
+      "marketplace": "pm-skills"
+    },
+    {
+      "plugin": "pm-marketing-growth",
+      "marketplace": "pm-skills"
+    },
+    {
+      "plugin": "pm-product-discovery",
+      "marketplace": "pm-skills"
+    },
+    {
+      "plugin": "pm-product-strategy",
+      "marketplace": "pm-skills"
+    },
+    {
+      "plugin": "pm-toolkit",
+      "marketplace": "pm-skills"
+    },
+    {
+      "plugin": "ponytail",
+      "marketplace": "ponytail"
+    },
+    {
+      "plugin": "understand-anything",
+      "marketplace": "understand-anything"
+    }
+  ]
+}
