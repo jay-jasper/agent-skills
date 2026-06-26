@@ -30,37 +30,10 @@
         "refactoring": "refactoring"
       }
     },
-    "CarterIrish-code-architecture-skill": {
-      "remote": "https://github.com/CarterIrish/code-architecture-skill.git",
+    "JCodesMore-ai-website-cloner-template": {
+      "remote": "https://github.com/JCodesMore/ai-website-cloner-template.git",
       "skills": {
-        "code-architecture": ""
-      }
-    },
-    "JimLiu-baoyu-skills": {
-      "remote": "https://github.com/JimLiu/baoyu-skills.git",
-      "skills": {
-        "baoyu-article-illustrator": "skills/baoyu-article-illustrator",
-        "baoyu-comic": "skills/baoyu-comic",
-        "baoyu-compress-image": "skills/baoyu-compress-image",
-        "baoyu-cover-image": "skills/baoyu-cover-image",
-        "baoyu-danger-gemini-web": "skills/baoyu-danger-gemini-web",
-        "baoyu-danger-x-to-markdown": "skills/baoyu-danger-x-to-markdown",
-        "baoyu-diagram": "skills/baoyu-diagram",
-        "baoyu-electron-extract": "skills/baoyu-electron-extract",
-        "baoyu-format-markdown": "skills/baoyu-format-markdown",
-        "baoyu-image-gen": "skills/baoyu-image-gen",
-        "baoyu-infographic": "skills/baoyu-infographic",
-        "baoyu-markdown-to-html": "skills/baoyu-markdown-to-html",
-        "baoyu-post-to-wechat": "skills/baoyu-post-to-wechat",
-        "baoyu-post-to-weibo": "skills/baoyu-post-to-weibo",
-        "baoyu-post-to-x": "skills/baoyu-post-to-x",
-        "baoyu-slide-deck": "skills/baoyu-slide-deck",
-        "baoyu-translate": "skills/baoyu-translate",
-        "baoyu-url-to-markdown": "skills/baoyu-url-to-markdown",
-        "baoyu-wechat-summary": "skills/baoyu-wechat-summary",
-        "baoyu-xhs-images": "skills/baoyu-xhs-images",
-        "baoyu-youtube-transcript": "skills/baoyu-youtube-transcript",
-        "release-skills": ".claude/skills/release-skills"
+        "clone-website": ".claude/skills/clone-website"
       }
     },
     "KreerC-ACCESSIBILITY.md": {
@@ -76,22 +49,16 @@
         "motion-design": "skills/motion-design"
       }
     },
+    "Panniantong-Agent-Reach": {
+      "remote": "https://github.com/Panniantong/Agent-Reach.git",
+      "skills": {
+        "agent-reach": "agent_reach/skill"
+      }
+    },
     "Sophriel-Claude-Code-Skill-for-Unreal-Engine": {
       "remote": "https://github.com/Sophriel/Claude-Code-Skill-for-Unreal-Engine.git",
       "skills": {
         "unreal-engine": ""
-      }
-    },
-    "TheQtCompanyRnD-agent-skills": {
-      "remote": "https://github.com/TheQtCompanyRnD/agent-skills.git",
-      "skills": {
-        "qt-cpp-docs": "skills/qt-cpp-docs",
-        "qt-cpp-review": "skills/qt-cpp-review",
-        "qt-qml": "skills/qt-qml",
-        "qt-qml-profiler": "skills/qt-qml-profiler",
-        "qt-qml-review": "skills/qt-qml-review",
-        "qt-qml-test": "skills/qt-qml-test",
-        "qt-ui-design": "skills/qt-ui-design"
       }
     },
     "addyosmani-agent-skills": {
@@ -121,37 +88,10 @@
         "using-agent-skills": "skills/using-agent-skills"
       }
     },
-    "anthropics-skills": {
-      "remote": "https://github.com/anthropics/skills.git",
-      "skills": {
-        "algorithmic-art": "skills/algorithmic-art",
-        "brand-guidelines": "skills/brand-guidelines",
-        "canvas-design": "skills/canvas-design",
-        "claude-api": "skills/claude-api",
-        "doc-coauthoring": "skills/doc-coauthoring",
-        "docx": "skills/docx",
-        "internal-comms": "skills/internal-comms",
-        "mcp-builder": "skills/mcp-builder",
-        "pdf": "skills/pdf",
-        "pptx": "skills/pptx",
-        "skill-creator": "skills/skill-creator",
-        "slack-gif-creator": "skills/slack-gif-creator",
-        "theme-factory": "skills/theme-factory",
-        "web-artifacts-builder": "skills/web-artifacts-builder",
-        "webapp-testing": "skills/webapp-testing",
-        "xlsx": "skills/xlsx"
-      }
-    },
     "arvindrk-extract-design-system": {
       "remote": "https://github.com/arvindrk/extract-design-system.git",
       "skills": {
         "extract-design-system": "skills/extract-design-system"
-      }
-    },
-    "bergside-typeui": {
-      "remote": "https://github.com/bergside/typeui.git",
-      "skills": {
-        "fundamentals": "skills/fundamentals"
       }
     },
     "codeaholicguy-ai-devkit": {
@@ -160,111 +100,6 @@
         "simplify-implementation": "skills/simplify-implementation",
         "structured-debug": "skills/structured-debug",
         "verify": "skills/verify"
-      }
-    },
-    "dpearson2699-swift-ios-skills": {
-      "remote": "https://github.com/dpearson2699/swift-ios-skills.git",
-      "skills": {
-        "accessorysetupkit": "skills/accessorysetupkit",
-        "activitykit": "skills/activitykit",
-        "adattributionkit": "skills/adattributionkit",
-        "alarmkit": "skills/alarmkit",
-        "app-clips": "skills/app-clips",
-        "app-intents": "skills/app-intents",
-        "app-store-optimization": "skills/app-store-optimization",
-        "app-store-review": "skills/app-store-review",
-        "apple-on-device-ai": "skills/apple-on-device-ai",
-        "appmigrationkit": "skills/appmigrationkit",
-        "audioaccessorykit": "skills/audioaccessorykit",
-        "authentication": "skills/authentication",
-        "avkit": "skills/avkit",
-        "background-processing": "skills/background-processing",
-        "browserenginekit": "skills/browserenginekit",
-        "callkit": "skills/callkit",
-        "carplay": "skills/carplay",
-        "cloudkit": "skills/cloudkit",
-        "contacts-framework": "skills/contacts-framework",
-        "core-bluetooth": "skills/core-bluetooth",
-        "core-data": "skills/core-data",
-        "core-motion": "skills/core-motion",
-        "core-nfc": "skills/core-nfc",
-        "coreml": "skills/coreml",
-        "cryptokit": "skills/cryptokit",
-        "cryptotokenkit": "skills/cryptotokenkit",
-        "debugging-instruments": "skills/debugging-instruments",
-        "device-integrity": "skills/device-integrity",
-        "dockkit": "skills/dockkit",
-        "energykit": "skills/energykit",
-        "eventkit": "skills/eventkit",
-        "financekit": "skills/financekit",
-        "focus-engine": "skills/focus-engine",
-        "gamekit": "skills/gamekit",
-        "healthkit": "skills/healthkit",
-        "homekit": "skills/homekit",
-        "ios-accessibility": "skills/ios-accessibility",
-        "ios-localization": "skills/ios-localization",
-        "ios-networking": "skills/ios-networking",
-        "ios-simulator": "skills/ios-simulator",
-        "mapkit": "skills/mapkit",
-        "metrickit": "skills/metrickit",
-        "musickit": "skills/musickit",
-        "natural-language": "skills/natural-language",
-        "paperkit": "skills/paperkit",
-        "passkit": "skills/passkit",
-        "pdfkit": "skills/pdfkit",
-        "pencilkit": "skills/pencilkit",
-        "permissionkit": "skills/permissionkit",
-        "photokit": "skills/photokit",
-        "push-notifications": "skills/push-notifications",
-        "realitykit": "skills/realitykit",
-        "relevancekit": "skills/relevancekit",
-        "scenekit": "skills/scenekit",
-        "sensorkit": "skills/sensorkit",
-        "shareplay-activities": "skills/shareplay-activities",
-        "speech-recognition": "skills/speech-recognition",
-        "spritekit": "skills/spritekit",
-        "storekit": "skills/storekit",
-        "swift-api-design-guidelines": "skills/swift-api-design-guidelines",
-        "swift-architecture": "skills/swift-architecture",
-        "swift-charts": "skills/swift-charts",
-        "swift-codable": "skills/swift-codable",
-        "swift-concurrency": "skills/swift-concurrency",
-        "swift-formatstyle": "skills/swift-formatstyle",
-        "swift-language": "skills/swift-language",
-        "swift-security": "skills/swift-security",
-        "swift-testing": "skills/swift-testing",
-        "swiftdata": "skills/swiftdata",
-        "swiftlint": "skills/swiftlint",
-        "swiftui-animation": "skills/swiftui-animation",
-        "swiftui-gestures": "skills/swiftui-gestures",
-        "swiftui-layout-components": "skills/swiftui-layout-components",
-        "swiftui-liquid-glass": "skills/swiftui-liquid-glass",
-        "swiftui-navigation": "skills/swiftui-navigation",
-        "swiftui-patterns": "skills/swiftui-patterns",
-        "swiftui-performance": "skills/swiftui-performance",
-        "swiftui-uikit-interop": "skills/swiftui-uikit-interop",
-        "swiftui-webkit": "skills/swiftui-webkit",
-        "tabletopkit": "skills/tabletopkit",
-        "tipkit": "skills/tipkit",
-        "vision-framework": "skills/vision-framework",
-        "weatherkit": "skills/weatherkit",
-        "widgetkit": "skills/widgetkit"
-      }
-    },
-    "existential-birds-beagle": {
-      "remote": "https://github.com/existential-birds/beagle.git",
-      "skills": {
-        "axum-code-review": "plugins/beagle-rust/skills/axum-code-review",
-        "ffi-code-review": "plugins/beagle-rust/skills/ffi-code-review",
-        "macros-code-review": "plugins/beagle-rust/skills/macros-code-review",
-        "review-rust": "plugins/beagle-rust/skills/review-rust",
-        "rust-best-practices": "plugins/beagle-rust/skills/rust-best-practices",
-        "rust-code-review": "plugins/beagle-rust/skills/rust-code-review",
-        "rust-project-setup": "plugins/beagle-rust/skills/rust-project-setup",
-        "rust-testing-code-review": "plugins/beagle-rust/skills/rust-testing-code-review",
-        "serde-code-review": "plugins/beagle-rust/skills/serde-code-review",
-        "sqlx-code-review": "plugins/beagle-rust/skills/sqlx-code-review",
-        "tokio-async-code-review": "plugins/beagle-rust/skills/tokio-async-code-review"
       }
     },
     "feature-sliced-skills": {
@@ -339,41 +174,10 @@
         "structured-root-cause-research": ""
       }
     },
-    "nextlevelbuilder-ui-ux-pro-max-skill": {
-      "remote": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
-      "skills": {
-        "banner-design": ".claude/skills/banner-design",
-        "brand": ".claude/skills/brand",
-        "design": ".claude/skills/design",
-        "design-system": ".claude/skills/design-system",
-        "slides": ".claude/skills/slides",
-        "ui-styling": ".claude/skills/ui-styling",
-        "ui-ux-pro-max": ".claude/skills/ui-ux-pro-max"
-      }
-    },
     "nikhil-salgaonkar-rust-design-review": {
       "remote": "https://github.com/nikhil-salgaonkar/rust-design-review.git",
       "skills": {
         "rust-design-review": ""
-      }
-    },
-    "obra-superpowers": {
-      "remote": "https://github.com/obra/superpowers.git",
-      "skills": {
-        "brainstorming": "skills/brainstorming",
-        "dispatching-parallel-agents": "skills/dispatching-parallel-agents",
-        "executing-plans": "skills/executing-plans",
-        "finishing-a-development-branch": "skills/finishing-a-development-branch",
-        "receiving-code-review": "skills/receiving-code-review",
-        "requesting-code-review": "skills/requesting-code-review",
-        "subagent-driven-development": "skills/subagent-driven-development",
-        "systematic-debugging": "skills/systematic-debugging",
-        "test-driven-development": "skills/test-driven-development",
-        "using-git-worktrees": "skills/using-git-worktrees",
-        "using-superpowers": "skills/using-superpowers",
-        "verification-before-completion": "skills/verification-before-completion",
-        "writing-plans": "skills/writing-plans",
-        "writing-skills": "skills/writing-skills"
       }
     },
     "openai-skills": {
@@ -423,6 +227,12 @@
       "remote": "https://github.com/qiao/rust-api-guidelines-skill.git",
       "skills": {
         "rust-api-guidelines": ""
+      }
+    },
+    "safishamsi-graphify": {
+      "remote": "https://github.com/safishamsi/graphify.git",
+      "skills": {
+        "graphify": "graphify"
       }
     },
     "samber-cc-skills-golang": {
@@ -482,13 +292,10 @@
         "tuner": "tuner"
       }
     },
-    "softaworks-agent-toolkit": {
-      "remote": "https://github.com/softaworks/agent-toolkit.git",
+    "vercel-labs-skills": {
+      "remote": "https://github.com/vercel-labs/skills.git",
       "skills": {
-        "c4-architecture": "skills/c4-architecture",
-        "naming-analyzer": "skills/naming-analyzer",
-        "qa-test-planner": "skills/qa-test-planner",
-        "reducing-entropy": "skills/reducing-entropy"
+        "find-skills": "skills/find-skills"
       }
     },
     "wednesday-solutions-ai-agent-skills": {
@@ -498,22 +305,12 @@
         "codebase-intel": "skills/codebase-intel"
       }
     },
-    "zig-incubator-zig-skills": {
-      "remote": "https://github.com/zig-incubator/zig-skills.git",
+    "yvgude-lean-ctx": {
+      "remote": "https://github.com/yvgude/lean-ctx.git",
       "skills": {
-        "zig": "skills/zig",
-        "zig-raylib": "skills/zig-raylib",
-        "zig-sdl3-bindings": "skills/zig-sdl3-bindings"
+        "lean-ctx": "skills/lean-ctx"
       }
     }
   },
-  "local_skills": [
-    "agent-reach",
-    "clone-website",
-    "find-skills",
-    "graphify",
-    "impeccable",
-    "lean-ctx",
-    "learned"
-  ]
+  "local_skills": []
 }

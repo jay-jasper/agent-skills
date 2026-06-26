@@ -27,16 +27,9 @@ while IFS=$'\t' read -r repodir remote name relpath; do
     git clone --depth 1 -q "$remote" "$dest" || { echo "    FAILED $remote" >&2; continue; }
   fi
   src="$dest${relpath:+/$relpath}"
-  if [ ! -f "$src/SKILL.md" ]; then echo "    WARN no SKILL.md at $src" >&2; continue; fi
+  # some repos ship lowercase skill.md
+  if ! ls "$src"/[Ss][Kk][Ii][Ll][Ll].md >/dev/null 2>&1; then echo "    WARN no SKILL.md at $src" >&2; continue; fi
   ln -sfn "$src" "$SKILLS/$name"
-done
-
-echo "==> Local (own-authored) skills -> $SKILLS"
-for d in "$ROOT"/local-skills/*/; do
-  name="$(basename "$d")"
-  rm -rf "$SKILLS/$name"
-  cp -R "$d" "$SKILLS/$name"
-  echo "  copy $name"
 done
 
 echo "==> Plugins"

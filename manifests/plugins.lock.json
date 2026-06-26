@@ -1,16 +1,64 @@
 {
   "_note": "Re-add each marketplace, then install each plugin. claude plugin marketplace add <src>; claude plugin install <plugin>@<market>",
   "marketplaces": {
+    "agent-toolkit": "softaworks/agent-toolkit",
+    "anthropic-agent-skills": "anthropics/skills",
+    "baoyu-skills": "JimLiu/baoyu-skills",
+    "bergside": "bergside/typeui",
     "claude-code-warp": "warpdotdev/claude-code-warp",
     "claude-plugins-official": "anthropics/claude-plugins-official",
+    "code-architecture-marketplace": "CarterIrish/code-architecture-skill",
     "ecc": "https://github.com/affaan-m/ECC.git",
+    "existential-birds": "existential-birds/beagle",
+    "impeccable": "pbakaus/impeccable",
     "karpathy-skills": "forrestchang/andrej-karpathy-skills",
     "lodestar": "Leejaywell/lode-skills",
     "pm-skills": "phuryn/pm-skills",
     "ponytail": "DietrichGebert/ponytail",
-    "understand-anything": "Egonex-AI/Understand-Anything"
+    "qt-skills-and-tools": "TheQtCompanyRnD/agent-skills",
+    "superpowers-dev": "obra/superpowers",
+    "swift-ios-skills": "dpearson2699/swift-ios-skills",
+    "ui-ux-pro-max-skill": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "understand-anything": "Egonex-AI/Understand-Anything",
+    "zig-skills": "zig-incubator/zig-skills"
   },
   "plugins": [
+    {
+      "plugin": "c4-architecture",
+      "marketplace": "agent-toolkit"
+    },
+    {
+      "plugin": "naming-analyzer",
+      "marketplace": "agent-toolkit"
+    },
+    {
+      "plugin": "qa-test-planner",
+      "marketplace": "agent-toolkit"
+    },
+    {
+      "plugin": "reducing-entropy",
+      "marketplace": "agent-toolkit"
+    },
+    {
+      "plugin": "claude-api",
+      "marketplace": "anthropic-agent-skills"
+    },
+    {
+      "plugin": "document-skills",
+      "marketplace": "anthropic-agent-skills"
+    },
+    {
+      "plugin": "example-skills",
+      "marketplace": "anthropic-agent-skills"
+    },
+    {
+      "plugin": "baoyu-skills",
+      "marketplace": "baoyu-skills"
+    },
+    {
+      "plugin": "typeui",
+      "marketplace": "bergside"
+    },
     {
       "plugin": "warp",
       "marketplace": "claude-code-warp"
@@ -28,8 +76,20 @@
       "marketplace": "claude-plugins-official"
     },
     {
+      "plugin": "code-architecture",
+      "marketplace": "code-architecture-marketplace"
+    },
+    {
       "plugin": "ecc",
       "marketplace": "ecc"
+    },
+    {
+      "plugin": "beagle-rust",
+      "marketplace": "existential-birds"
+    },
+    {
+      "plugin": "impeccable",
+      "marketplace": "impeccable"
     },
     {
       "plugin": "andrej-karpathy-skills",
@@ -80,8 +140,28 @@
       "marketplace": "ponytail"
     },
     {
+      "plugin": "qt-development-skills",
+      "marketplace": "qt-skills-and-tools"
+    },
+    {
+      "plugin": "superpowers",
+      "marketplace": "superpowers-dev"
+    },
+    {
+      "plugin": "all-ios-skills",
+      "marketplace": "swift-ios-skills"
+    },
+    {
+      "plugin": "ui-ux-pro-max",
+      "marketplace": "ui-ux-pro-max-skill"
+    },
+    {
       "plugin": "understand-anything",
       "marketplace": "understand-anything"
+    },
+    {
+      "plugin": "zig-skills",
+      "marketplace": "zig-skills"
     }
   ]
 }
