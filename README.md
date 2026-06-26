@@ -8,18 +8,19 @@ via `claude plugin`; the rest are cloned and symlinked.
 ## Layout
 
 ```
-manifests/plugins.lock.json   20 plugin marketplaces + 35 plugins (preferred install method)
-manifests/skills.lock.json    27 non-plugin repos -> which skills each provides (clone + symlink)
-install.sh                    rebuild everything from the manifests
+manifests/plugins.lock.json   21 plugin marketplaces + 36 plugins (preferred install method)
+manifests/skills.lock.json    26 non-plugin repos -> which skills each provides (clone + symlink)
+install.sh                    rebuild everything from the manifests; reports every failure, exits non-zero if any
+update.sh                     git-pull all clones + `claude plugin update` all plugins, then refresh manifests
 scripts/gen-manifests.py      regenerate the manifests from the live machine
 skills-cleanup.md             my keep/archive curation notes
 ```
 
 Every source repo was checked for plugin packaging (`.claude-plugin/marketplace.json`).
 Repos that have it are installed as plugins (cleaner, native); repos without it stay
-clone+symlink. Two plugin-capable repos fell back to clone+symlink: `BigPapiCB`
-(marketplace.json at repo root, unsupported by the CLI) and `addyosmani/agent-skills`
-(plugin source uses an SSH URL).
+clone+symlink. `install.sh` sets `git insteadOf` to rewrite SSH plugin sources to HTTPS
+(needed for `addyosmani`). One plugin-capable repo still falls back to clone+symlink:
+`BigPapiCB` (its marketplace.json is at the repo root, which the CLI doesn't accept).
 
 ## On a new machine
 

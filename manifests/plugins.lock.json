@@ -1,6 +1,7 @@
 {
   "_note": "Re-add each marketplace, then install each plugin. claude plugin marketplace add <src>; claude plugin install <plugin>@<market>",
   "marketplaces": {
+    "addy-agent-skills": "addyosmani/agent-skills",
     "agent-toolkit": "softaworks/agent-toolkit",
     "anthropic-agent-skills": "anthropics/skills",
     "baoyu-skills": "JimLiu/baoyu-skills",
@@ -23,6 +24,10 @@
     "zig-skills": "zig-incubator/zig-skills"
   },
   "plugins": [
+    {
+      "plugin": "agent-skills",
+      "marketplace": "addy-agent-skills"
+    },
     {
       "plugin": "c4-architecture",
       "marketplace": "agent-toolkit"

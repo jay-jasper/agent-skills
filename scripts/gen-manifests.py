@@ -32,8 +32,9 @@ def gen_skills():
     # repodir -> {"remote": url, "skills": {name: relpath-within-clone}}
     repos = {}
     local = []                     # own skills, no upstream -> committed as files
+    IGNORE = {"learned"}   # ECC continuous-learning runtime dir, not a tracked skill
     for entry in sorted(SKILLS.iterdir()):
-        if entry.name.startswith("."):
+        if entry.name.startswith(".") or entry.name in IGNORE:
             continue
         if entry.is_symlink():
             tgt = os.readlink(entry)

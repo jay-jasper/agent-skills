@@ -61,33 +61,6 @@
         "unreal-engine": ""
       }
     },
-    "addyosmani-agent-skills": {
-      "remote": "https://github.com/addyosmani/agent-skills.git",
-      "skills": {
-        "api-and-interface-design": "skills/api-and-interface-design",
-        "browser-testing-with-devtools": "skills/browser-testing-with-devtools",
-        "ci-cd-and-automation": "skills/ci-cd-and-automation",
-        "code-review-and-quality": "skills/code-review-and-quality",
-        "code-simplification": "skills/code-simplification",
-        "context-engineering": "skills/context-engineering",
-        "debugging-and-error-recovery": "skills/debugging-and-error-recovery",
-        "deprecation-and-migration": "skills/deprecation-and-migration",
-        "documentation-and-adrs": "skills/documentation-and-adrs",
-        "doubt-driven-development": "skills/doubt-driven-development",
-        "frontend-ui-engineering": "skills/frontend-ui-engineering",
-        "git-workflow-and-versioning": "skills/git-workflow-and-versioning",
-        "idea-refine": "skills/idea-refine",
-        "incremental-implementation": "skills/incremental-implementation",
-        "interview-me": "skills/interview-me",
-        "performance-optimization": "skills/performance-optimization",
-        "planning-and-task-breakdown": "skills/planning-and-task-breakdown",
-        "security-and-hardening": "skills/security-and-hardening",
-        "shipping-and-launch": "skills/shipping-and-launch",
-        "source-driven-development": "skills/source-driven-development",
-        "spec-driven-development": "skills/spec-driven-development",
-        "using-agent-skills": "skills/using-agent-skills"
-      }
-    },
     "arvindrk-extract-design-system": {
       "remote": "https://github.com/arvindrk/extract-design-system.git",
       "skills": {
